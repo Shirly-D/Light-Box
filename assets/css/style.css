@@ -131,7 +131,7 @@ section li {
   margin-bottom: 35px;
 }
 
-section li h4 {
+.content-box h4 {
   padding: 10px;
   background-color: #DAA520;
   color: #246F05;
@@ -139,7 +139,7 @@ section li h4 {
   text-align: center;    
 }
 
-section li h4::first-letter { text-transform: capitalize; }
+.content-box h4::first-letter { text-transform: capitalize; }
 
 section .box {
   width: 97%;
