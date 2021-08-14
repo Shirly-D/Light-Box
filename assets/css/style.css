@@ -100,55 +100,72 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 90%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
 
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
 =================================*/
 
+main section:first-child .wrapper div {
+  padding: 20px 0;
+  margin-bottom: 60px;
+  background-color: #000;
+  color: #fff;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+}
 
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+section li {
+  width: 32%;
+  border: 1px solid #000;
+  margin-bottom: 35px;
+}
 
+section li h4 {
+  padding: 10px;
+  background-color: #DAA520;
+  color: #246F05;
+  font-size: 20px;
+  text-align: center;    
+}
 
+section li h4::first-letter { text-transform: capitalize; }
 
+main section:nth-child(2) .wrapper {
+  max-width: 1518px;
+  width: 100%;
+}
+
+section .box {
+  background-color: #000;
+  opacity: 0.7;
+}
+
+section .close { 
+  color: #fff;
+  font-size: 50px;
+}
+
+section .light-box {
+  width: 30%;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+.active { display: block; }
+.none { display: none; }
 
 
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
