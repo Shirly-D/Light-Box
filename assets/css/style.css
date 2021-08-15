@@ -150,8 +150,7 @@ section .box {
   top: 0;
   left: 0;
   display: none;
-  background-color: #000;
-  opacity: 0.7;
+  background-color: rgba(0, 0 , 0, 0.8);
   overflow: auto;
 }
 
@@ -173,7 +172,7 @@ section .light-box {
   border: 1px solid #000;
   margin: 0 auto;
   position: relative;
-  top: 300px;
+  top: 150px;
 }
 
 section .active { display: block; }
