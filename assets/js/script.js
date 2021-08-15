@@ -14,7 +14,7 @@ function lightBox(box, boxText) {
     elem.setAttribute("src", box);
     var textElem = document.querySelector('.box-text');
     textElem.innerHTML = "data-text";
-    lightBox.addEventListener('click', function(e){
+    lightBox.addEventListener('click', function(){
         lightBox.classList.remove('active');
     })
 }
