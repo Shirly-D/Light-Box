@@ -14,7 +14,7 @@ for (var i = 0; i < box.length; i++) {
 function lightBox(box) {
     var lightBox = document.querySelector('.box');
     lightBox.classList.add('active');   
-    var elem = document.querySelector('.light-box');
+    var elem = document.querySelector('.image-box');
     console.log(elem);
     elem.setAttribute("src", box);
 }
