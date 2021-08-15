@@ -7,13 +7,14 @@ for (var i = 0; i < box.length; i++) {
     })
 }
 
-function lightBox(box, boxText) {
+function lightBox(box, textElem) {
     var lightBox = document.querySelector('.box');
     lightBox.classList.add('active');   
     var elem = document.querySelector('.image-box');
     elem.setAttribute("src", box);
     var textElem = document.querySelector('.box-text');
-    textElem.innerHTML = "data-text";
+    console.log(textElem);
+    textElem.innerHTML = data-text;
     lightBox.addEventListener('click', function(){
         lightBox.classList.remove('active');
     })
